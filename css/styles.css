@@ -20,6 +20,7 @@ a {
         text-decoration: none;
         font-style: normal;
         color: currentColor;
+        display: inline-block;
 }
 
 ul {
@@ -109,6 +110,7 @@ img {
         color: #434455;
         font-style: normal;
         letter-spacing: 0.02em;
+        margin-top: 24px;
 }
 
 .contact-button:hover,
@@ -179,17 +181,11 @@ img {
 
 .list-section-two {
         display: flex;
-        padding-left: 156px;
-        padding-right: 156px;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        gap: 24px;
-        width: calc ((100% - 72px) / 4);
 }
 
 .advantages-list-text {
         width: calc ((100% - 72px) / 4);
-}
+        }
 
 .advantages-title {
         color: #2e2f42;
