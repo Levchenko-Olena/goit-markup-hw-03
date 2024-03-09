@@ -48,6 +48,7 @@ img {
 }
 
 .our {
+        display: flex;
         flex-direction: column;
 }
 
