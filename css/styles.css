@@ -81,6 +81,7 @@ img {
 
 .mini-logo-two {
         color: #f4f4fd;
+        display: inline-block;
 }
 
 .logo {
@@ -188,7 +189,7 @@ img {
 }
 
 .advantages-list-text {
-        width: calc((100% - 72px) / 4);
+        flex-basis: calc((100% - 72px) / 4);
 }
 
 .advantages-title {
