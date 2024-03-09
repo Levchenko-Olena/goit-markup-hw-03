@@ -319,7 +319,7 @@ img {
         padding: 100px 0;
 }
 
-.end-logo {
+div .end-logo{
        
         margin-bottom: 16px;
         font-family: "Raleway", sans-serif;
@@ -335,6 +335,7 @@ img {
 
 .mini-logo-two {
         color: #f4f4fd;
+        display: inline-block;
 }
 
 .end-page-text {
