@@ -44,11 +44,11 @@ img {
         margin: 0 auto;
         width: 1158px;
         padding-left: 15px;
-        padding-right: 15px
+        padding-right: 15px;
 }
 
 .full-navigation {
-        border-bottom: 1px solid #e7e9fc
+        border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
@@ -56,14 +56,12 @@ img {
         align-items: center;
 }
 
-.logo-web {
-        display: flex;
-
-}
-
 .nav-list {
         display: flex;
         gap: 40px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 .contact-list {
@@ -95,15 +93,7 @@ img {
         color: #4d5ae5;
         margin-right: 76px;
         display: inline-block;
-
 }
-
-.navigation-list {
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-}
-
 
 .nav-button {
         padding: 24px 0;
@@ -143,11 +133,6 @@ img {
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
-
-        padding-left: 472px;
-        padding-right: 472px;
-        padding-top: 188px;
-        margin-bottom: 48px;
         max-width: 496px;
 }
 
@@ -165,14 +150,8 @@ img {
         height: 56px;
         border: none;
         display: block;
-        align-items: flex-start;
-        justify-content: flex-start;
         flex-direction: row;
-        gap: 10px;
         border-radius: 4px;
-
-        margin-left: 636px;
-        margin-right: 636px;
 }
 
 
