@@ -280,10 +280,7 @@ img {
 
 .list-third {
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
-        margin-left: 156px;
-        margin-right: 156px;
         margin-top: 72px;
         margin-bottom: 120px;
         gap: 24px;
