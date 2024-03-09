@@ -20,7 +20,6 @@ a {
         text-decoration: none;
         font-style: normal;
         color: currentColor;
-        display: inline-block;
 }
 
 ul {
@@ -54,6 +53,8 @@ img {
 
 .full-navigation {
         border-bottom: 1px solid #e7e9fc;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .navigation {
@@ -72,7 +73,6 @@ img {
 .contact-list {
         display: flex;
         gap: 40px;
-        margin-left: 332px;
 }
 
 .mini-logo {
@@ -333,7 +333,6 @@ img {
 
 .mini-logo-two {
         color: #f4f4fd;
-        display:inline-block;
 }
 
 .end-page-text {
