@@ -181,6 +181,7 @@ img {
 
 .list-section-two {
         display: flex;
+        gap: 24px;
 }
 
 .advantages-list-text {
