@@ -184,6 +184,7 @@ img {
         padding-top: 24px;
         padding-bottom: 24px;
         gap: 24px;
+        width: calc ((100% - 72px) / 4);
 }
 
 .advantages-list-text {
@@ -219,11 +220,12 @@ img {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
+        margin-bottom: 72px;
 }
 
 .our-team-list {
         display: flex;
-        margin-top: 72px;
+
         margin-bottom: 120px;
         align-items: center;
         justify-content: center;
@@ -272,12 +274,13 @@ img {
         text-transform: capitalize;
         text-align: center;
         color: #2E2F42;
+        margin-bottom: 72px;
 }
 
 .list-third {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 72px;
+
         margin-bottom: 120px;
         gap: 24px;
         width: calc((100%-24px)/2);
@@ -319,7 +322,7 @@ img {
 }
 
 .end-logo {
-        display: inline-block;
+        display:inline-block;
         margin-bottom: 16px;
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -333,7 +336,7 @@ img {
 
 .mini-logo-two {
         color: #f4f4fd;
-        display: inline-block;
+        display:inline-block;
 }
 
 .end-page-text {
