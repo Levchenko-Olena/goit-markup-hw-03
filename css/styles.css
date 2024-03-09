@@ -50,6 +50,7 @@ img {
 .our {
         display: flex;
         flex-direction: column;
+        display: inline-block;
 }
 
 .full-navigation {
@@ -74,6 +75,7 @@ img {
 .contact-list {
         display: flex;
         gap: 40px;
+        margin-left: 332px;
 }
 
 .mini-logo {
@@ -319,7 +321,7 @@ img {
         padding: 100px 0;
 }
 
-div .end-logo{
+.end-logo{
        
         margin-bottom: 16px;
         font-family: "Raleway", sans-serif;
