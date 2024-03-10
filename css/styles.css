@@ -4,7 +4,7 @@ body {
         color: #434455;
         background-color: #ffffff;
 }
-
+/* Стилі для обнулення відступів у елементів */
 h1,
 h2,
 h3,
@@ -12,31 +12,38 @@ h4,
 h5,
 h6,
 p {
-        margin-bottom: 0;
-        margin-top: 0;
+        margin: 0;
 }
 
+/* обнулення базових властивостей списків (ul) */
+ul,
+ol {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+}
+
+/* обнулення базових властивостей у посилань */
 a {
         text-decoration: none;
         font-style: normal;
         color: currentColor;
 }
 
-ul {
-        list-style-type: none;
-        margin-bottom: 0;
-        margin-top: 0;
-        padding-left: 0;
+/* Властивості для коректного відображення картинок */
+img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+address {
+        font-style: normal;
 }
 
 button {
         cursor: pointer;
-}
-
-img {
-        display: block;
-        min-width: 100%;
-        object-fit: cover;
 }
 
 .container {
@@ -223,8 +230,6 @@ img {
 
 .our-team-list {
         display: flex;
-
-        margin-bottom: 120px;
         align-items: center;
         justify-content: center;
         gap: 24px;
@@ -278,16 +283,13 @@ img {
 .list-third {
         display: flex;
         flex-wrap: wrap;
-
-        margin-bottom: 120px;
         gap: 24px;
-        width: calc((100%-24px)/2);
         row-gap: 48px;
 }
 
 .list-portfolio {
         width: calc((100% - 48px) / 3);
-}
+        }
 
 .our-list {
         padding: 32px 16px;
@@ -301,17 +303,13 @@ img {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
-        margin-top: 32px;
         margin-bottom: 8px;
-        margin-left: 16px;
 }
 
 .third-portfolio-text {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        margin-bottom: 32px;
-        margin-left: 16px;
 }
 
 .end-page {
